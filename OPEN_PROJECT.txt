@@ -1,0 +1,26 @@
+SECUREBANK — OPEN / RUN
+
+1. Extract this ZIP.
+2. Make sure MongoDB is running on your PC.
+3. Open Terminal in Dashboard/server:
+   npm install
+   npm run dev
+4. Open another Terminal in Dashboard/client:
+   npm install
+   npm run dev
+5. Open the URL shown by Vite (normally http://localhost:5173).
+
+FAST WINDOWS OPTION
+Double-click start.bat after installing dependencies in both server and client once.
+
+BANKING FLOW
+Registration/Login -> Dashboard -> Accounts -> Transfer -> Transactions -> Cards -> Loans -> Notifications -> Profile.
+
+ADMIN FLOW
+Admin login -> Users -> Accounts -> Transactions -> Loans -> Cards -> Notifications/communications.
+
+CARD SYNC
+Customer card actions are saved in MongoDB. Admin can block/activate/freeze cards; the customer receives a notification and sees the updated status on the next refresh/poll. Customer freeze/unfreeze and card settings are also persisted.
+
+NOTE
+This is a SecureBank educational project with a modern YONO-style digital-banking UX. It is not an official SBI/YONO product.

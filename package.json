@@ -1,0 +1,11 @@
+{
+  "name": "securebank-banking-platform",
+  "version": "1.0.0",
+  "description": "SecureBank Enterprise Digital Banking Platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "start": "node -e \"console.log('Use npm run server and npm run client, or run start.bat')\""
+  }
+}
